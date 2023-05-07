@@ -9,7 +9,7 @@ import store from "./store";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { disableReactDevTools } from '@fvilers/disable-react-devtools';
 
-if(process.env.Node_ENV === "production") disableReactDevTools();
+// if(process.env.Node_ENV === "production") disableReactDevTools();
 
 const persistedStore = persistStore(store);
 
