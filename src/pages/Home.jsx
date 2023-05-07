@@ -9,7 +9,7 @@ function Home() {
    
   return (
     <div className='xl:max-w-[1920px] w-full home-background'>
-    <div className=' flex flex-col items-center justify-center text-center pt-80 '>
+    <div className=' flex flex-col items-center justify-center text-center md:pt-80 pt-44 '>
       <div className='flex sm:flex flex-col items-center justify-center  text-center  '>
         <img src={chat} alt="chat-logo" className='w-[140px] h-[140px] rounded-full shadow-xl shadow-blue-400'/>
         <h1 className=' sm:text-[72px] text-[60px] p-4 font-medium text-gradient  shadow-xl rounded-full shadow-orange-300 font-home'>Welcome to My-Chat</h1>
